@@ -1,0 +1,59 @@
+---
+title: "Answers Lab3"
+author: "You Name"
+date: "12/6/2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Solution for the Laboratory 3
+
+This is an R Markdown document including the solutions to the laboratory 3 for the Data Driven Security subject of the Master in CyberSecurity Management.
+
+## Crawling y Scrapping
+
+Using the functions implemented in the file `code.R`.
+
+```{r file_load, error=FALSE}
+# source("./code.R")
+```
+
+
+### 1.1 Obtención de la página web
+
+```{r get_title, include=FALSE}
+
+```
+
+
+### 1.2 Analisis de el contenido de la web
+
+```{r web_content, include=FALSE}
+
+```
+
+
+### 1.3.	Extracción de enlaces 
+
+
+```{r get_links, include=FALSE}
+
+```
+
+
+### 1.4 Exploración de enlaces
+
+```{r expl_links, include=FALSE}
+
+```
+
+### Gráficos en R
+
+### 2.1	Histograma
+
+### 2.2	Un gráfico de barras
+
+### 2.3 Pie Chart
