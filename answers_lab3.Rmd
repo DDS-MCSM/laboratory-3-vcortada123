@@ -1,7 +1,7 @@
 ---
 title: "Answers Lab3"
-author: "You Name"
-date: "12/6/2018"
+author: "Victor Cortada"
+date: "13/1/2019"
 output: html_document
 ---
 
@@ -27,7 +27,7 @@ Using the functions implemented in the file `code.R`.
 ```{r get_title, include=FALSE}
 
 ```
-
+get_web()
 
 ### 1.2 Analisis de el contenido de la web
 
@@ -35,6 +35,8 @@ Using the functions implemented in the file `code.R`.
 
 ```
 
+title <- get_title()
+charset <- get_charset()
 
 ### 1.3.	Extracción de enlaces 
 
@@ -43,17 +45,26 @@ Using the functions implemented in the file `code.R`.
 
 ```
 
+link <- get_link(link)
 
 ### 1.4 Exploración de enlaces
 
 ```{r expl_links, include=FALSE}
 
 ```
+df <- get_explore_data(link)
+
 
 ### Gráficos en R
 
 ### 2.1	Histograma
 
+hist (df$st)
+
 ### 2.2	Un gráfico de barras
 
+barplot(df,col=c("blue"))
+
 ### 2.3 Pie Chart
+
+pie(df$url, col = rainbow(length(x))) legend("topright", cex = 0.8, fill = rainbow(length(x)))
